@@ -1,0 +1,22 @@
+name: dat675-torch
+channels:
+  - conda-forge
+  - pytorch
+  - pyg
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - notebook
+  - jupyterlab
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - scipy
+  - rdkit
+  - pytorch
+  - cpuonly
+  - pip:
+      - torch-geometric
